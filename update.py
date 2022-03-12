@@ -1,7 +1,8 @@
 import os,sys
 
 
-PERINTAH = """cd
+PERINTAH = """
+cd $HOME
 cd Vvip
 mv .datame1 $HOME
 mv Hasil $HOME
@@ -11,7 +12,8 @@ git clone https://github.com/Dumai-991/Vvip
 cd
 mv Hasil Vvip
 mv .datame1 Vvip
-cd Vvip"""
+cd Vvip
+"""
 
 print(" |-->Tunggu Sebentar Sedang Update Script....")
 os.system(PERINTAH)
